@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE9CB5482A09C65E00837FE4 /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CB5472A09C65E00837FE4 /* Diamond.swift */; };
 		CED551172A094AD30045765F /* SetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED551162A094AD30045765F /* SetApp.swift */; };
-		CED551192A094AD30045765F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED551182A094AD30045765F /* ContentView.swift */; };
+		CED551192A094AD30045765F /* SetGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED551182A094AD30045765F /* SetGameView.swift */; };
 		CED5511B2A094AD40045765F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5511A2A094AD40045765F /* Assets.xcassets */; };
 		CED5511E2A094AD40045765F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5511D2A094AD40045765F /* Preview Assets.xcassets */; };
+		CED551252A094FF90045765F /* SetGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED551242A094FF90045765F /* SetGameModel.swift */; };
+		CED551272A0958190045765F /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED551262A0958190045765F /* SetGame.swift */; };
+		CED551292A0959990045765F /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED551282A0959990045765F /* AspectVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE9CB5472A09C65E00837FE4 /* Diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diamond.swift; sourceTree = "<group>"; };
 		CED551132A094AD30045765F /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED551162A094AD30045765F /* SetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetApp.swift; sourceTree = "<group>"; };
-		CED551182A094AD30045765F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CED551182A094AD30045765F /* SetGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameView.swift; sourceTree = "<group>"; };
 		CED5511A2A094AD40045765F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED5511D2A094AD40045765F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED551242A094FF90045765F /* SetGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameModel.swift; sourceTree = "<group>"; };
+		CED551262A0958190045765F /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		CED551282A0959990045765F /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				CED551162A094AD30045765F /* SetApp.swift */,
-				CED551182A094AD30045765F /* ContentView.swift */,
+				CED551182A094AD30045765F /* SetGameView.swift */,
+				CE9CB5472A09C65E00837FE4 /* Diamond.swift */,
+				CED551282A0959990045765F /* AspectVGrid.swift */,
+				CED551242A094FF90045765F /* SetGameModel.swift */,
+				CED551262A0958190045765F /* SetGame.swift */,
 				CED5511A2A094AD40045765F /* Assets.xcassets */,
 				CED5511C2A094AD40045765F /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED551192A094AD30045765F /* ContentView.swift in Sources */,
+				CE9CB5482A09C65E00837FE4 /* Diamond.swift in Sources */,
+				CED551192A094AD30045765F /* SetGameView.swift in Sources */,
+				CED551252A094FF90045765F /* SetGameModel.swift in Sources */,
 				CED551172A094AD30045765F /* SetApp.swift in Sources */,
+				CED551292A0959990045765F /* AspectVGrid.swift in Sources */,
+				CED551272A0958190045765F /* SetGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
